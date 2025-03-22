@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './componutes/Header';
+import Category from './componutes/Category';
+import Sheps from './componutes/Sheps';
+import Voyage from './componutes/Voyage';
+import Customerfavorite from './componutes/Customerfavorite';
+import Shop from './componutes/Shop';
+import Aboutus from './componutes/Aboutus';
+import Icone from './componutes/Icone';
+import Footers from './componutes/Footers';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Category />
+      <Sheps />
+      <Voyage />
+      <Customerfavorite />
+      <Shop />
+      <Aboutus />
+      <Icone/>
+      <Footers/>
+    </>
   );
 }
 
